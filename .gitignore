@@ -1,0 +1,36 @@
+# Keil µVision build artifacts
+*.axf
+*.hex
+*.lst
+*.map
+*.d
+*.o
+*.dep
+*.htm
+*.lnp
+*.sct
+*.crf
+*.tra
+*.bak
+*.uvgui.*
+*.uvguix.*
+*.dbgconf
+*.sfr
+*.ini
+
+# Build output folders
+Objects/
+Listings/
+RTE/
+
+# Flash Magic logs
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# JLink / debugger
+JLinkLog.txt
+JLinkSettings.ini
